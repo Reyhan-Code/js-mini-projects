@@ -59,5 +59,6 @@ function clearTodos() {
 }
 
 function filterTodos(e) {
+  const filterText = e.target.value.toLowerCase();//ini adalah nilai dari filter input dijadikan huruf kecil dan e adalah membuat elemen target vaue adalah isinya dari yang diinput
   
 }
